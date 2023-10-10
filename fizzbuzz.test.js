@@ -1,5 +1,5 @@
-const fizzbuzz = require('./fizzbuzz');
+const fizzbuzzer = require('./fizz');
 
 test('if divisible by three and five should fizzbuzz', () => {
-    expect(fizzbuzz(15)).toBe(true);
+    expect(fizzbuzzer(30)).toBe('fizzbuzz');
 }); 
