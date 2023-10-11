@@ -8,6 +8,7 @@ const main = async () => {
       
       readline.question('What letter do you want at the middle of your diamond? ', middleLetter => {
         console.log('Middle Letter is: ', middleLetter)
+        middleLetter = middleLetter.toUpperCase();
         numOfLoops = diamond.indexOfLetter(middleLetter);
         for (let x = 0; x < numOfLoops; x++) {
             currentLetter = diamond.alphabet[x];
