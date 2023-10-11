@@ -1,7 +1,7 @@
 const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M"
                  ,"N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
 
-function diamond(letter) 
+function determineLeadingSpaces(letter) 
 {
     let letterIndex;
     console.log("Letter is: ", letter);    
@@ -9,4 +9,7 @@ function diamond(letter)
     return letterIndex;
 }
 
-module.exports = diamond
+function diamondMaker(letter) {
+    return letter;
+}
+module.exports = {determineLeadingSpaces, diamondMaker}
