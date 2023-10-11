@@ -3,8 +3,7 @@ const alphabet = ["A","B","C","D","E","F","G","H","I","J","K","L","M"
 
 function getIndexOfLetter(letter) 
 {
-    let letterIndex;
-    console.log("Letter is: ", letter);    
+    let letterIndex;   
     letterIndex = 1+alphabet.indexOf(letter);
     return letterIndex;
 }
@@ -19,12 +18,11 @@ function diamondLineMaker(givenLetter, currentLetter) {
     let line = "";
     for (let x = 0; x < leadingSpaces; x++) {
         line = line + " ";
-        console.log(line);
     };
     for (let x = 0; x < occurences; x++) {
         line = line + currentLetter;
-        console.log(line);
     };
+    console.log(line);
     return line;
 }
 module.exports = {getIndexOfLetter, diamondMaker, diamondLineMaker}
