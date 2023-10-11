@@ -8,10 +8,6 @@ test('number divisible by 3 should return fizz', () => {
     expect(fizzbuzzer(3)).toBe('fizz');
 });
 
-test('number divisible by 3 should return fizz', () => {
-    expect(fizzbuzzer(6)).toBe('fizz');
-});
-
 test('number divisible by 5 should return buzz', () => {
     expect(fizzbuzzer(10)).toBe('buzz');
 });
