@@ -8,8 +8,8 @@ const readline = require('readline').createInterface({
 const main = async () => {
       
       readline.question('What is your top number? ', topNumber => {
-        topNumber++
         console.log('topNumber is: ', topNumber)
+        topNumber++
         for (let x = 1; x<topNumber; x++) {
             console.log(fizzbuzzer(x));
         }
