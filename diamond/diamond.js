@@ -22,7 +22,6 @@ function diamondLineMaker(givenLetter, currentLetter) {
     for (let x = 0; x < occurences; x++) {
         line = line + currentLetter;
     };
-    console.log(line);
     return line;
 }
-module.exports = {indexOfLetter, diamondMaker, diamondLineMaker}
+module.exports = {indexOfLetter, diamondMaker, diamondLineMaker, alphabet}
